@@ -6,6 +6,15 @@
   "types": "dist/index.d.ts",
   "author": "Modsynth Team",
   "license": "MIT",
-  "peerDependencies": {"react": "^18.0.0", "chart.js": "^4.0.0", "react-chartjs-2": "^5.0.0"},
-  "dependencies": {"@modsynth/ui-components": "*"}
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "chart.js": "^4.0.0",
+    "react-chartjs-2": "^5.0.0"
+  },
+  "dependencies": {
+    "@modsynth/ui-components": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
